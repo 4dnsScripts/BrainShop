@@ -1,0 +1,14 @@
+local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))()
+
+
+local exampleTool = LoadCustomInstance("rbxassetid://1804306003")
+
+
+CustomShop.CreateItem(exampleTool, {
+    Title = "Brain",
+    Desc = "Gives U Hax",
+    Image = "https://cdn.discordapp.com/attachments/1070027986134380604/1077185278944485406/2474.png",
+    Price = 100,
+    Stack = 1,
+})
